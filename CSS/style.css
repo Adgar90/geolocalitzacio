@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    justify-content: start;
+    flex-direction: row-reverse;
+}
+#map { 
+    height: 790px;
+    width: -webkit-fill-available;
+}
+.sticky{
+    position: relative;
+    height: 100vh;
+  }
+  
+  #map{
+    position: sticky;
+    top: 10px;
+  }
